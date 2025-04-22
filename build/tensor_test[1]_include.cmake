@@ -1,0 +1,5 @@
+if(EXISTS "/Users/ambroseling/Projects/eztensors/build/tensor_test[1]_tests.cmake")
+  include("/Users/ambroseling/Projects/eztensors/build/tensor_test[1]_tests.cmake")
+else()
+  add_test(tensor_test_NOT_BUILT tensor_test_NOT_BUILT)
+endif()
