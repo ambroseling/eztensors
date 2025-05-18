@@ -1,0 +1,1330 @@
+Start testing: May 17 23:22 EDT
+----------------------------------------------------------
+1/49 Testing: TensorTest.TestCreationDefinedShape
+1/49 Test: TensorTest.TestCreationDefinedShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestCreationDefinedShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestCreationDefinedShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestCreationDefinedShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestCreationDefinedShape
+[       OK ] TensorTest.TestCreationDefinedShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestCreationDefinedShape" end time: May 17 23:22 EDT
+"TensorTest.TestCreationDefinedShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/49 Testing: TensorTest.TestCreationZeroShape
+2/49 Test: TensorTest.TestCreationZeroShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestCreationZeroShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestCreationZeroShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestCreationZeroShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestCreationZeroShape
+[       OK ] TensorTest.TestCreationZeroShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestCreationZeroShape" end time: May 17 23:22 EDT
+"TensorTest.TestCreationZeroShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/49 Testing: TensorTest.TestCreationShared
+3/49 Test: TensorTest.TestCreationShared
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestCreationShared" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestCreationShared" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestCreationShared
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestCreationShared
+[       OK ] TensorTest.TestCreationShared (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestCreationShared" end time: May 17 23:22 EDT
+"TensorTest.TestCreationShared" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/49 Testing: TensorTest.TestCreationInputData
+4/49 Test: TensorTest.TestCreationInputData
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestCreationInputData" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestCreationInputData" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestCreationInputData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestCreationInputData
+[       OK ] TensorTest.TestCreationInputData (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestCreationInputData" end time: May 17 23:22 EDT
+"TensorTest.TestCreationInputData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/49 Testing: TensorTest.TestCreationInputDataWrongShape
+5/49 Test: TensorTest.TestCreationInputDataWrongShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestCreationInputDataWrongShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestCreationInputDataWrongShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestCreationInputDataWrongShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestCreationInputDataWrongShape
+[       OK ] TensorTest.TestCreationInputDataWrongShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestCreationInputDataWrongShape" end time: May 17 23:22 EDT
+"TensorTest.TestCreationInputDataWrongShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/49 Testing: TensorTest.TestFillWith
+6/49 Test: TensorTest.TestFillWith
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestFillWith" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestFillWith" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestFillWith
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestFillWith
+[       OK ] TensorTest.TestFillWith (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestFillWith" end time: May 17 23:22 EDT
+"TensorTest.TestFillWith" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/49 Testing: TensorTest.TestFillWithScalar
+7/49 Test: TensorTest.TestFillWithScalar
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestFillWithScalar" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestFillWithScalar" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestFillWithScalar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestFillWithScalar
+[       OK ] TensorTest.TestFillWithScalar (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestFillWithScalar" end time: May 17 23:22 EDT
+"TensorTest.TestFillWithScalar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/49 Testing: TensorTest.TestAddWrongShape
+8/49 Test: TensorTest.TestAddWrongShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestAddWrongShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestAddWrongShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestAddWrongShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestAddWrongShape
+[       OK ] TensorTest.TestAddWrongShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestAddWrongShape" end time: May 17 23:22 EDT
+"TensorTest.TestAddWrongShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/49 Testing: TensorTest.TestAddDiffTensor
+9/49 Test: TensorTest.TestAddDiffTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestAddDiffTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestAddDiffTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestAddDiffTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestAddDiffTensor
+[       OK ] TensorTest.TestAddDiffTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestAddDiffTensor" end time: May 17 23:22 EDT
+"TensorTest.TestAddDiffTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/49 Testing: TensorTest.TestAddSameTensor
+10/49 Test: TensorTest.TestAddSameTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestAddSameTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestAddSameTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestAddSameTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestAddSameTensor
+[       OK ] TensorTest.TestAddSameTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestAddSameTensor" end time: May 17 23:22 EDT
+"TensorTest.TestAddSameTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/49 Testing: TensorTest.TestAddFloat
+11/49 Test: TensorTest.TestAddFloat
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestAddFloat" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestAddFloat" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestAddFloat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestAddFloat
+[       OK ] TensorTest.TestAddFloat (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestAddFloat" end time: May 17 23:22 EDT
+"TensorTest.TestAddFloat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/49 Testing: TensorTest.TestAddInplace
+12/49 Test: TensorTest.TestAddInplace
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestAddInplace" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestAddInplace" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestAddInplace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestAddInplace
+[       OK ] TensorTest.TestAddInplace (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestAddInplace" end time: May 17 23:22 EDT
+"TensorTest.TestAddInplace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/49 Testing: TensorTest.TestSubtractWrongShape
+13/49 Test: TensorTest.TestSubtractWrongShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSubtractWrongShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSubtractWrongShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSubtractWrongShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSubtractWrongShape
+[       OK ] TensorTest.TestSubtractWrongShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSubtractWrongShape" end time: May 17 23:22 EDT
+"TensorTest.TestSubtractWrongShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/49 Testing: TensorTest.TestSubtractDiffTensor
+14/49 Test: TensorTest.TestSubtractDiffTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSubtractDiffTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSubtractDiffTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSubtractDiffTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSubtractDiffTensor
+[       OK ] TensorTest.TestSubtractDiffTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSubtractDiffTensor" end time: May 17 23:22 EDT
+"TensorTest.TestSubtractDiffTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/49 Testing: TensorTest.TestSubtractSameTensor
+15/49 Test: TensorTest.TestSubtractSameTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSubtractSameTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSubtractSameTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSubtractSameTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSubtractSameTensor
+[       OK ] TensorTest.TestSubtractSameTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSubtractSameTensor" end time: May 17 23:22 EDT
+"TensorTest.TestSubtractSameTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/49 Testing: TensorTest.TestSubtractFloat
+16/49 Test: TensorTest.TestSubtractFloat
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSubtractFloat" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSubtractFloat" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSubtractFloat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSubtractFloat
+[       OK ] TensorTest.TestSubtractFloat (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSubtractFloat" end time: May 17 23:22 EDT
+"TensorTest.TestSubtractFloat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/49 Testing: TensorTest.TestSubtractInplace
+17/49 Test: TensorTest.TestSubtractInplace
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSubtractInplace" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSubtractInplace" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSubtractInplace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSubtractInplace
+[       OK ] TensorTest.TestSubtractInplace (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSubtractInplace" end time: May 17 23:22 EDT
+"TensorTest.TestSubtractInplace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/49 Testing: TensorTest.TestMulitplyWrongShape
+18/49 Test: TensorTest.TestMulitplyWrongShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMulitplyWrongShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMulitplyWrongShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMulitplyWrongShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMulitplyWrongShape
+[       OK ] TensorTest.TestMulitplyWrongShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMulitplyWrongShape" end time: May 17 23:22 EDT
+"TensorTest.TestMulitplyWrongShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/49 Testing: TensorTest.TestMulitplyDiffTensor
+19/49 Test: TensorTest.TestMulitplyDiffTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMulitplyDiffTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMulitplyDiffTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMulitplyDiffTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMulitplyDiffTensor
+[       OK ] TensorTest.TestMulitplyDiffTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMulitplyDiffTensor" end time: May 17 23:22 EDT
+"TensorTest.TestMulitplyDiffTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/49 Testing: TensorTest.TestMulitplySameTensor
+20/49 Test: TensorTest.TestMulitplySameTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMulitplySameTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMulitplySameTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMulitplySameTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMulitplySameTensor
+[       OK ] TensorTest.TestMulitplySameTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMulitplySameTensor" end time: May 17 23:22 EDT
+"TensorTest.TestMulitplySameTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/49 Testing: TensorTest.TestMulitplyFloat
+21/49 Test: TensorTest.TestMulitplyFloat
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMulitplyFloat" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMulitplyFloat" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMulitplyFloat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMulitplyFloat
+[       OK ] TensorTest.TestMulitplyFloat (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMulitplyFloat" end time: May 17 23:22 EDT
+"TensorTest.TestMulitplyFloat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/49 Testing: TensorTest.TestMulitplyInplace
+22/49 Test: TensorTest.TestMulitplyInplace
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMulitplyInplace" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMulitplyInplace" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMulitplyInplace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMulitplyInplace
+[       OK ] TensorTest.TestMulitplyInplace (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMulitplyInplace" end time: May 17 23:22 EDT
+"TensorTest.TestMulitplyInplace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/49 Testing: TensorTest.TestDivideWrongShape
+23/49 Test: TensorTest.TestDivideWrongShape
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestDivideWrongShape" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestDivideWrongShape" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestDivideWrongShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestDivideWrongShape
+[       OK ] TensorTest.TestDivideWrongShape (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestDivideWrongShape" end time: May 17 23:22 EDT
+"TensorTest.TestDivideWrongShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/49 Testing: TensorTest.TestDivideDiffTensor
+24/49 Test: TensorTest.TestDivideDiffTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestDivideDiffTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestDivideDiffTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestDivideDiffTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestDivideDiffTensor
+[       OK ] TensorTest.TestDivideDiffTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestDivideDiffTensor" end time: May 17 23:22 EDT
+"TensorTest.TestDivideDiffTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/49 Testing: TensorTest.TestDivideSameTensor
+25/49 Test: TensorTest.TestDivideSameTensor
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestDivideSameTensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestDivideSameTensor" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestDivideSameTensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestDivideSameTensor
+[       OK ] TensorTest.TestDivideSameTensor (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestDivideSameTensor" end time: May 17 23:22 EDT
+"TensorTest.TestDivideSameTensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/49 Testing: TensorTest.TestDivideFloat
+26/49 Test: TensorTest.TestDivideFloat
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestDivideFloat" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestDivideFloat" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestDivideFloat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestDivideFloat
+[       OK ] TensorTest.TestDivideFloat (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestDivideFloat" end time: May 17 23:22 EDT
+"TensorTest.TestDivideFloat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/49 Testing: TensorTest.TestDivideInplace
+27/49 Test: TensorTest.TestDivideInplace
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestDivideInplace" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestDivideInplace" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestDivideInplace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestDivideInplace
+[       OK ] TensorTest.TestDivideInplace (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestDivideInplace" end time: May 17 23:22 EDT
+"TensorTest.TestDivideInplace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/49 Testing: TensorTest.TestView
+28/49 Test: TensorTest.TestView
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestView" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestView" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestView
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestView
+Size : 6
+Input size :6
+[       OK ] TensorTest.TestView (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestView" end time: May 17 23:22 EDT
+"TensorTest.TestView" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/49 Testing: TensorTest.TestViewNonContig
+29/49 Test: TensorTest.TestViewNonContig
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestViewNonContig" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestViewNonContig" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestViewNonContig
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestViewNonContig
+[       OK ] TensorTest.TestViewNonContig (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestViewNonContig" end time: May 17 23:22 EDT
+"TensorTest.TestViewNonContig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/49 Testing: TensorTest.TestTransposeContig
+30/49 Test: TensorTest.TestTransposeContig
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestTransposeContig" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestTransposeContig" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestTransposeContig
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestTransposeContig
+Size : 24
+Input size :24
+[       OK ] TensorTest.TestTransposeContig (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestTransposeContig" end time: May 17 23:22 EDT
+"TensorTest.TestTransposeContig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/49 Testing: TensorTest.TestSumAllReduceDontKeep
+31/49 Test: TensorTest.TestSumAllReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumAllReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumAllReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumAllReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumAllReduceDontKeep
+[       OK ] TensorTest.TestSumAllReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumAllReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumAllReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/49 Testing: TensorTest.TestSumAllReduceKeep
+32/49 Test: TensorTest.TestSumAllReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumAllReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumAllReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumAllReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumAllReduceKeep
+[       OK ] TensorTest.TestSumAllReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumAllReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumAllReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/49 Testing: TensorTest.TestSumNDimReduceDontKeep
+33/49 Test: TensorTest.TestSumNDimReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumNDimReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumNDimReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumNDimReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumNDimReduceDontKeep
+[       OK ] TensorTest.TestSumNDimReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumNDimReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumNDimReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/49 Testing: TensorTest.TestSumNDimReduceKeep
+34/49 Test: TensorTest.TestSumNDimReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumNDimReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumNDimReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumNDimReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumNDimReduceKeep
+[       OK ] TensorTest.TestSumNDimReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumNDimReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumNDimReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/49 Testing: TensorTest.TestSumLastDimReduceDontKeep
+35/49 Test: TensorTest.TestSumLastDimReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumLastDimReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumLastDimReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumLastDimReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumLastDimReduceDontKeep
+[       OK ] TensorTest.TestSumLastDimReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumLastDimReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumLastDimReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/49 Testing: TensorTest.TestSumLastDimReduceKeep
+36/49 Test: TensorTest.TestSumLastDimReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumLastDimReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumLastDimReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumLastDimReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumLastDimReduceKeep
+[       OK ] TensorTest.TestSumLastDimReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumLastDimReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumLastDimReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/49 Testing: TensorTest.TestSumOneDimReduceDontKeep
+37/49 Test: TensorTest.TestSumOneDimReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumOneDimReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumOneDimReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumOneDimReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumOneDimReduceDontKeep
+[       OK ] TensorTest.TestSumOneDimReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumOneDimReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumOneDimReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/49 Testing: TensorTest.TestSumOneDimReduceKeep
+38/49 Test: TensorTest.TestSumOneDimReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumOneDimReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumOneDimReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumOneDimReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumOneDimReduceKeep
+[       OK ] TensorTest.TestSumOneDimReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumOneDimReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestSumOneDimReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/49 Testing: TensorTest.TestSumInvalidDim
+39/49 Test: TensorTest.TestSumInvalidDim
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestSumInvalidDim" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestSumInvalidDim" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestSumInvalidDim
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestSumInvalidDim
+[       OK ] TensorTest.TestSumInvalidDim (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestSumInvalidDim" end time: May 17 23:22 EDT
+"TensorTest.TestSumInvalidDim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/49 Testing: TensorTest.TestMeanAllReduceDontKeep
+40/49 Test: TensorTest.TestMeanAllReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanAllReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanAllReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanAllReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanAllReduceDontKeep
+[       OK ] TensorTest.TestMeanAllReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanAllReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanAllReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/49 Testing: TensorTest.TestMeanAllReduceKeep
+41/49 Test: TensorTest.TestMeanAllReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanAllReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanAllReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanAllReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanAllReduceKeep
+[       OK ] TensorTest.TestMeanAllReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanAllReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanAllReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/49 Testing: TensorTest.TestMeanNDimReduceDontKeep
+42/49 Test: TensorTest.TestMeanNDimReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanNDimReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanNDimReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanNDimReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanNDimReduceDontKeep
+[       OK ] TensorTest.TestMeanNDimReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanNDimReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanNDimReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/49 Testing: TensorTest.TestMeanNDimReduceKeep
+43/49 Test: TensorTest.TestMeanNDimReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanNDimReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanNDimReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanNDimReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanNDimReduceKeep
+[       OK ] TensorTest.TestMeanNDimReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanNDimReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanNDimReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/49 Testing: TensorTest.TestMeanLastDimReduceDontKeep
+44/49 Test: TensorTest.TestMeanLastDimReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanLastDimReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanLastDimReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanLastDimReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanLastDimReduceDontKeep
+[       OK ] TensorTest.TestMeanLastDimReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanLastDimReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanLastDimReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/49 Testing: TensorTest.TestMeanLastDimReduceKeep
+45/49 Test: TensorTest.TestMeanLastDimReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanLastDimReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanLastDimReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanLastDimReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanLastDimReduceKeep
+[       OK ] TensorTest.TestMeanLastDimReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanLastDimReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanLastDimReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/49 Testing: TensorTest.TestMeanOneDimReduceDontKeep
+46/49 Test: TensorTest.TestMeanOneDimReduceDontKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanOneDimReduceDontKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanOneDimReduceDontKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanOneDimReduceDontKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanOneDimReduceDontKeep
+[       OK ] TensorTest.TestMeanOneDimReduceDontKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanOneDimReduceDontKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanOneDimReduceDontKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/49 Testing: TensorTest.TestMeanOneDimReduceKeep
+47/49 Test: TensorTest.TestMeanOneDimReduceKeep
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanOneDimReduceKeep" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanOneDimReduceKeep" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanOneDimReduceKeep
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanOneDimReduceKeep
+[       OK ] TensorTest.TestMeanOneDimReduceKeep (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanOneDimReduceKeep" end time: May 17 23:22 EDT
+"TensorTest.TestMeanOneDimReduceKeep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/49 Testing: TensorTest.TestMeanInvalidDim
+48/49 Test: TensorTest.TestMeanInvalidDim
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestMeanInvalidDim" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestMeanInvalidDim" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestMeanInvalidDim
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestMeanInvalidDim
+[       OK ] TensorTest.TestMeanInvalidDim (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestMeanInvalidDim" end time: May 17 23:22 EDT
+"TensorTest.TestMeanInvalidDim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/49 Testing: TensorTest.TestExpand
+49/49 Test: TensorTest.TestExpand
+Command: "/Users/ambroseling/Projects/eztensors/build/test_tensor" "--gtest_filter=TensorTest.TestExpand" "--gtest_also_run_disabled_tests"
+Directory: /Users/ambroseling/Projects/eztensors/build
+"TensorTest.TestExpand" start time: May 17 23:22 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.TestExpand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.TestExpand
+[       OK ] TensorTest.TestExpand (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.TestExpand" end time: May 17 23:22 EDT
+"TensorTest.TestExpand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 17 23:22 EDT

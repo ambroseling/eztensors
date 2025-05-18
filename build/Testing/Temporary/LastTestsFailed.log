@@ -1,0 +1,3 @@
+43:TensorTest.TestMeanNDimReduceKeep
+44:TensorTest.TestMeanLastDimReduceDontKeep
+45:TensorTest.TestMeanLastDimReduceKeep

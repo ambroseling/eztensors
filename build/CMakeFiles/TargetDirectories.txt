@@ -1,4 +1,4 @@
-/Users/ambroseling/Projects/eztensors/build/CMakeFiles/tensor_test.dir
+/Users/ambroseling/Projects/eztensors/build/CMakeFiles/test_tensor.dir
 /Users/ambroseling/Projects/eztensors/build/CMakeFiles/eztensors.dir
 /Users/ambroseling/Projects/eztensors/build/CMakeFiles/test.dir
 /Users/ambroseling/Projects/eztensors/build/CMakeFiles/edit_cache.dir

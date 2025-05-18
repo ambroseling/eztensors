@@ -16,16 +16,16 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 add_executable(
-  tensor_test
-  tests/tensor_test.cpp
+  test_tensor
+  tests/test_tensor.cpp
 )
 target_link_libraries(
-  tensor_test
+  test_tensor
   GTest::gtest_main
 )
 
 include(GoogleTest)
 
-gtest_discover_tests(tensor_test)
+gtest_discover_tests(test_tensor)
 
 add_executable(eztensors main.cpp)

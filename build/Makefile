@@ -172,17 +172,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tensor_test
+# Target rules for targets named test_tensor
 
 # Build rule for target.
-tensor_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tensor_test
-.PHONY : tensor_test
+test_tensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_tensor
+.PHONY : test_tensor
 
 # fast build rule for target.
-tensor_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor_test.dir/build.make CMakeFiles/tensor_test.dir/build
-.PHONY : tensor_test/fast
+test_tensor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/build
+.PHONY : test_tensor/fast
 
 #=============================================================================
 # Target rules for targets named eztensors
@@ -273,29 +273,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eztensors.dir/build.make CMakeFiles/eztensors.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-tests/tensor_test.o: tests/tensor_test.cpp.o
-.PHONY : tests/tensor_test.o
+tests/test_tensor.o: tests/test_tensor.cpp.o
+.PHONY : tests/test_tensor.o
 
 # target to build an object file
-tests/tensor_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor_test.dir/build.make CMakeFiles/tensor_test.dir/tests/tensor_test.cpp.o
-.PHONY : tests/tensor_test.cpp.o
+tests/test_tensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/tests/test_tensor.cpp.o
+.PHONY : tests/test_tensor.cpp.o
 
-tests/tensor_test.i: tests/tensor_test.cpp.i
-.PHONY : tests/tensor_test.i
+tests/test_tensor.i: tests/test_tensor.cpp.i
+.PHONY : tests/test_tensor.i
 
 # target to preprocess a source file
-tests/tensor_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor_test.dir/build.make CMakeFiles/tensor_test.dir/tests/tensor_test.cpp.i
-.PHONY : tests/tensor_test.cpp.i
+tests/test_tensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/tests/test_tensor.cpp.i
+.PHONY : tests/test_tensor.cpp.i
 
-tests/tensor_test.s: tests/tensor_test.cpp.s
-.PHONY : tests/tensor_test.s
+tests/test_tensor.s: tests/test_tensor.cpp.s
+.PHONY : tests/test_tensor.s
 
 # target to generate assembly for a file
-tests/tensor_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tensor_test.dir/build.make CMakeFiles/tensor_test.dir/tests/tensor_test.cpp.s
-.PHONY : tests/tensor_test.cpp.s
+tests/test_tensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/tests/test_tensor.cpp.s
+.PHONY : tests/test_tensor.cpp.s
 
 # Help Target
 help:
@@ -315,13 +315,13 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... tensor_test"
+	@echo "... test_tensor"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... tests/tensor_test.o"
-	@echo "... tests/tensor_test.i"
-	@echo "... tests/tensor_test.s"
+	@echo "... tests/test_tensor.o"
+	@echo "... tests/test_tensor.i"
+	@echo "... tests/test_tensor.s"
 .PHONY : help
 
 
