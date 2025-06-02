@@ -1086,4 +1086,5 @@ CMakeFiles/test_tensor.dir/tests/test_tensor.cpp.o: \
   /Users/ambroseling/Projects/eztensors/tests/../src/kernels/matmul.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_neon.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_bf16.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_vector_types.h
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/arm_vector_types.h \
+  /Users/ambroseling/Projects/eztensors/tests/../src/kernels/outer.cpp

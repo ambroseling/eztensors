@@ -19,13 +19,33 @@ add_executable(
   test_tensor
   tests/test_tensor.cpp
 )
+add_executable(
+  test_attention
+  tests/test_attention.cpp
+)
+add_executable(
+  test_rmsnorm
+  tests/test_rmsnorm.cpp
+)
 target_link_libraries(
   test_tensor
   GTest::gtest_main
 )
+target_link_libraries(
+  test_attention
+  GTest::gtest_main
+)
+target_link_libraries(
+  test_rmsnorm
+  GTest::gtest_main
+)
+
 
 include(GoogleTest)
 
 gtest_discover_tests(test_tensor)
+gtest_discover_tests(test_attention)
+gtest_discover_tests(test_rmsnorm)
+
 
 add_executable(eztensors main.cpp)

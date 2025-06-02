@@ -94,6 +94,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_tensor.dir/DependInfo.cmake"
+  "CMakeFiles/test_attention.dir/DependInfo.cmake"
+  "CMakeFiles/test_rmsnorm.dir/DependInfo.cmake"
   "CMakeFiles/eztensors.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"

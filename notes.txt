@@ -1,0 +1,13 @@
+
+
+
+// apply rotatry emb
+    xq_ = torch.view_as_complex(xq.float().reshape(*xq.shape[:-1], -1, 2))
+    xk_ = torch.view_as_complex(xk.float().reshape(*xk.shape[:-1], -1, 2))
+    // xq_ and xk_ are of shape (B, S,H , HD//2)
+    //freq_cis shape must be (S, HD//2)
+    freqs_cis = reshape_for_broadcast(freqs_cis, xq_)
+    // freq_cis is now of shape (1,S,1,HD//2)
+    xq_out = torch.view_as_real(xq_ * freqs_cis).flatten(3)
+    xk_out = torch.view_as_real(xk_ * freqs_cis).flatten(3)
+    return xq_out.type_as(xq), xk_out.type_as(xk)

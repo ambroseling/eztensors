@@ -5,7 +5,8 @@
 #include <random>
 #include <cmath>  
 #include <memory>
-#include "tensor.cpp"
+#include "../include/tensor.hpp"
+#include "../models/llama.cpp"
 
 namespace EzTensor{
 
@@ -24,10 +25,16 @@ namespace EzTensor{
             int n_local_heads;
             int n_rep;
             int head_dim;
-            AttentionLayer(std::unordered_map<std::string,Tensor> input_weights, ModelArgs args);
+            int max_seq_len;
+            float rope_theta;
+
+            Tensor* cache_k;
+            Tensor* cache_v;
+            AttentionLayer(std::unordered_map<std::string,Tensor>& input_weights, ModelArgs args);
             ~AttentionLayer();
             Tensor forward(Tensor& x, int start_pos);
-            constexpr Tensor precompute_freq_cis(int dim, int end, float theta);
+            Tensor precompute_freq_cis(int dim, int end, float theta);
+            std::unordered_map<std::string,EzTensor::Tensor> apply_rotary_embedding(Tensor xq, Tensor xk, Tensor freqs);
     };
 
 
@@ -35,21 +42,17 @@ namespace EzTensor{
         public: 
             float eps;
             Tensor _norm(Tensor& x);
-            RMSNormLayer(std::unordered_map<std::string,Tensor> input_weights);
+            RMSNormLayer(std::unordered_map<std::string,Tensor> input_weights, ModelArgs args);
             ~RMSNormLayer();
             Tensor forward(Tensor& x);
-
-
     };
 
     class FeedForwardLayer : public Layer<FeedForwardLayer> {
         public: 
-            int dim;
-            int hidden_dim;
-            int mulitple_of;
-            FeedForwardLayer(std::unordered_map<std::string,Tensor> input_weights);
+            FeedForwardLayer(std::unordered_map<std::string,Tensor>& input_weights, ModelArgs args);
             ~FeedForwardLayer();
             Tensor forward(Tensor& x);
     };
+
 
 }

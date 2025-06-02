@@ -21,14 +21,18 @@ namespace EzTensor{
         int compute_expand_offset(int offset, std::vector<int>& new_strides, std::vector<int>& old_shape ,std::vector<int>& new_shape);
         int compute_size(std::vector<int>& input_shape);
         std::vector<int> compute_strides(std::vector<int>& input_shape);
+        std::vector<int> compute_broadcast_strides(std::vector<int>&input_shape);
+
         void iterate_tensor(int offset, int dim,  std::function<void(int)> ops);
-        void iterate_tensor_linear(std::function<void(int)> ops);
-        void print_tensor();
+        void iterate_tensor_linear(std::function<void(int)> ops, ssize_t steps, ssize_t tensor_size);
+        void print_tensor(bool display_data);
 
         //Constructors
+        Tensor();
         Tensor(std::vector<int>& input_shape); //✔
         Tensor(std::vector<int>& input_shape, std::shared_ptr<std::vector<float>> data); //✔
         Tensor(std::vector<int>& input_shape, std::vector<float>& input_data);
+        
         //Destructor
         ~Tensor();
 
@@ -46,6 +50,9 @@ namespace EzTensor{
         void randn(float mean, float stddev); //✔
         Tensor expand(std::vector<int> target_shape, bool rep_mem);
         Tensor view(std::vector<int>& target_shape);
+        Tensor matmul(Tensor& rtensor, MM_MODE mode); //✔
+        Tensor outer(Tensor& rtensor, MM_MODE mode);
+        Tensor concat_with(Tensor& rtensor,int dim);
 
         //Element-Wise Operations
         Tensor operator+(Tensor& rtensor); //✔ 🇹
@@ -72,12 +79,14 @@ namespace EzTensor{
         Tensor powr(float power); // t^power ele-wise
         Tensor rpowr(float base); // base^t ele-wise
         Tensor dropout(float prob);
+        Tensor complex_cos_sin(); // special rope op
+        Tensor complex_sin_cos();
+        Tensor last_dim_subtract(std::vector<int> input_shape);
 
         //Reductions
         Tensor sum(int dim, bool keepdim); //✔
         Tensor mean(int dim, bool keepdim); //✔
         Tensor var(int dim, bool keepdim); //✔
-        Tensor matmul(Tensor& rtensor, MM_MODE mode); //✔
         Tensor softmax(int dim); 
         Tensor layernorm(float eps);
         Tensor rmsnorm(float eps);

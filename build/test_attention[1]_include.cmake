@@ -1,0 +1,5 @@
+if(EXISTS "/Users/ambroseling/Projects/eztensors/build/test_attention[1]_tests.cmake")
+  include("/Users/ambroseling/Projects/eztensors/build/test_attention[1]_tests.cmake")
+else()
+  add_test(test_attention_NOT_BUILT test_attention_NOT_BUILT)
+endif()

@@ -90,7 +90,7 @@ TEST(TensorTest, TestAddWrongShape){
         EzTensor::Tensor tc = ta + tb;
     }
     catch(std::runtime_error& exception){
-        EXPECT_STREQ("Tensors must have the same shape!", exception.what() );
+        EXPECT_STREQ("Tensors must have the same shape or be broadcastable!", exception.what() );
         throw;
     }
     }, std::runtime_error);
@@ -107,6 +107,20 @@ TEST(TensorTest, TestAddDiffTensor){
     EzTensor::Tensor tc = ta + tb;
     EXPECT_EQ(*(tc.data),expected_data);
 }
+
+TEST(TensorTest, TestAddDiffTensorBroadcasted){
+    std::vector<float> expected_data(48,8.0);
+    std::vector<float> data_a = {5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0};
+    std::vector<int> shape_a = {1,2,1,4};
+    EzTensor::Tensor ta(shape_a, data_a);
+
+    std::vector<int> shape_b = {2,2,3,4};
+    EzTensor::Tensor tb(shape_b);
+    tb.fill_with(3.0);
+    EzTensor::Tensor tc = tb + ta;
+    EXPECT_EQ(*(tc.data),expected_data);
+}
+
 TEST(TensorTest, TestAddSameTensor){
     std::vector<float> expected_data = {24.0,24.0,24.0,24.0};
     std::vector<int> shape_a = {2,2};
@@ -151,7 +165,7 @@ TEST(TensorTest, TestSubtractWrongShape){
         EzTensor::Tensor tc = ta - tb;
     }
     catch(std::runtime_error& exception){
-        EXPECT_STREQ("Tensors must have the same shape!", exception.what() );
+        EXPECT_STREQ("Tensors must have the same shape or be broadcastable!", exception.what() );
         throw;
     }
     }, std::runtime_error);
@@ -168,6 +182,20 @@ TEST(TensorTest, TestSubtractDiffTensor){
     EzTensor::Tensor tc = ta - tb;
     EXPECT_EQ(*(tc.data),expected_data);
 }
+
+TEST(TensorTest, TestSubtractDiffTensorBroadcasted){
+    std::vector<float> expected_data(48,-2.0);
+    std::vector<float> data_a = {5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0};
+    std::vector<int> shape_a = {1,2,1,4};
+    EzTensor::Tensor ta(shape_a, data_a);
+
+    std::vector<int> shape_b = {2,2,3,4};
+    EzTensor::Tensor tb(shape_b);
+    tb.fill_with(3.0);
+    EzTensor::Tensor tc = tb - ta;
+    EXPECT_EQ(*(tc.data),expected_data);
+}
+ 
 
 TEST(TensorTest, TestSubtractSameTensor){
     std::vector<float> expected_data(4,0);
@@ -210,7 +238,7 @@ TEST(TensorTest, TestMulitplyWrongShape){
         EzTensor::Tensor tc = ta * tb;
     }
     catch(std::runtime_error& exception){
-        EXPECT_STREQ("Tensors must have the same shape!", exception.what() );
+        EXPECT_STREQ("Tensors must have the same shape or be broadcastable!", exception.what() );
         throw;
     }
     }, std::runtime_error);
@@ -227,6 +255,20 @@ TEST(TensorTest, TestMulitplyDiffTensor){
     EzTensor::Tensor tc = ta * tb;
     EXPECT_EQ(*(tc.data),expected_data);
 }
+
+TEST(TensorTest, TestMultiplyDiffTensorBroadcasted){
+    std::vector<float> expected_data(48,15.0);
+    std::vector<float> data_a = {5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0};
+    std::vector<int> shape_a = {1,2,1,4};
+    EzTensor::Tensor ta(shape_a, data_a);
+
+    std::vector<int> shape_b = {2,2,3,4};
+    EzTensor::Tensor tb(shape_b);
+    tb.fill_with(3.0);
+    EzTensor::Tensor tc = tb * ta;
+    EXPECT_EQ(*(tc.data),expected_data);
+}
+
 
 TEST(TensorTest, TestMulitplySameTensor){
     std::vector<float> expected_data(4,144.0);
@@ -269,7 +311,7 @@ TEST(TensorTest, TestDivideWrongShape){
         EzTensor::Tensor tc = ta / tb;
     }
     catch(std::runtime_error& exception){
-        EXPECT_STREQ("Tensors must have the same shape!", exception.what() );
+        EXPECT_STREQ("Tensors must have the same shape or be broadcastable!", exception.what() );
         throw;
     }
     }, std::runtime_error);
@@ -284,6 +326,19 @@ TEST(TensorTest, TestDivideDiffTensor){
     EzTensor::Tensor tb(shape_b);
     tb.fill_with(3.0);
     EzTensor::Tensor tc = ta / tb;
+    EXPECT_EQ(*(tc.data),expected_data);
+}
+
+TEST(TensorTest, TestDivideDiffTensorBroadcasted){
+    std::vector<float> expected_data(48,0.5);
+    std::vector<float> data_a = {4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0};
+    std::vector<int> shape_a = {1,2,1,4};
+    EzTensor::Tensor ta(shape_a, data_a);
+
+    std::vector<int> shape_b = {2,2,3,4};
+    EzTensor::Tensor tb(shape_b);
+    tb.fill_with(2.0);
+    EzTensor::Tensor tc = tb / ta;
     EXPECT_EQ(*(tc.data),expected_data);
 }
 
@@ -637,7 +692,74 @@ TEST(TensorTest, TestMeanInvalidDim){
         }, std::runtime_error);
 }
 
-TEST(TensorTest, TestExpand){
+// TEST(TensorTest, TestExpand){
 
     
+// }
+
+
+// TEST(TensorTest, TestExpandInvalidShape){
+
+    
+// }
+
+
+TEST(TensorTest, TestOuterProductNaive){
+    std::vector<int> shape_a = {3};
+    std::vector<int> shape_b = {6};
+    std::vector<float> input_data_a = {1,2,3};
+    std::vector<float> input_data_b = {1,2,3,4,5,6};
+    std::vector<int> expected_shape = {3,6};
+    std::vector<float> expected_data = {1,2,3,4,5,6,
+                                        2,4,6,8,10,12,
+                                        3,6,9,12,15,18};
+    EzTensor::Tensor t1(shape_a, input_data_a);
+    EzTensor::Tensor t2(shape_b, input_data_b);
+    EzTensor::MM_MODE mode = EzTensor::MM_MODE::NAIVE;
+    EzTensor::Tensor outer = t1.outer(t2, mode);
+    EXPECT_EQ(outer.shape, expected_shape);
+    EXPECT_EQ(*(outer.data), expected_data);
 }
+
+TEST(TensorTest, TestOuterProductSIMD){
+    std::vector<int> shape_a = {3};
+    std::vector<int> shape_b = {6};
+    std::vector<float> input_data_a = {1,2,3};
+    std::vector<float> input_data_b = {1,2,3,4,5,6};
+    std::vector<int> expected_shape = {3,6};
+    std::vector<float> expected_data = {1,2,3,4,5,6,
+                                        2,4,6,8,10,12,
+                                        3,6,9,12,15,18};
+    EzTensor::Tensor t1(shape_a, input_data_a);
+    EzTensor::Tensor t2(shape_b, input_data_b);
+    EzTensor::MM_MODE mode = EzTensor::MM_MODE::SIMD;
+    EzTensor::Tensor outer = t1.outer(t2, mode);
+    EXPECT_EQ(outer.shape, expected_shape);
+    EXPECT_EQ(*(outer.data), expected_data);
+}
+
+
+
+
+
+// TEST(TensorTest, TestOuterProductInvalid){
+
+    
+// }
+
+// TEST(TensorTest, TestMatMul){
+
+    
+// }
+
+
+// TEST(TensorTest, TestMatMulInvalid){
+
+    
+// }
+
+
+
+
+
+

@@ -1016,10 +1016,19 @@ CMakeFiles/eztensors.dir/main.cpp.o: /Users/ambroseling/Projects/eztensors/main.
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/xlocale/_wctype.h \
   /Users/ambroseling/Projects/eztensors/src/include/tensor.hpp \
   /Users/ambroseling/Projects/eztensors/src/kernels/matmul.cpp \
+  /Users/ambroseling/Projects/eztensors/src/kernels/outer.cpp \
+  /Users/ambroseling/Projects/eztensors/src/include/tensor.hpp \
+  /Users/ambroseling/Projects/eztensors/src/models/llama.cpp \
+  /Users/ambroseling/Projects/eztensors/src/include/layers.hpp \
+  /Users/ambroseling/Projects/eztensors/src/layers/feedforward.cpp \
   /Users/ambroseling/Projects/eztensors/src/tensor.cpp
 
 
 /Users/ambroseling/Projects/eztensors/src/tensor.cpp:
+
+/Users/ambroseling/Projects/eztensors/src/layers/feedforward.cpp:
+
+/Users/ambroseling/Projects/eztensors/src/kernels/outer.cpp:
 
 /Users/ambroseling/Projects/eztensors/src/kernels/matmul.cpp:
 
@@ -1754,6 +1763,8 @@ CMakeFiles/eztensors.dir/main.cpp.o: /Users/ambroseling/Projects/eztensors/main.
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/ios:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
+
+/Users/ambroseling/Projects/eztensors/src/include/layers.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/mutex:
 
@@ -2582,6 +2593,8 @@ CMakeFiles/eztensors.dir/main.cpp.o: /Users/ambroseling/Projects/eztensors/main.
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__math/traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/pstl_merge.h:
+
+/Users/ambroseling/Projects/eztensors/src/models/llama.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/concepts.h:
 

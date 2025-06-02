@@ -1088,10 +1088,13 @@ CMakeFiles/test_tensor.dir/tests/test_tensor.cpp.o: /Users/ambroseling/Projects/
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /Users/ambroseling/Projects/eztensors/src/include/tensor.hpp \
   /Users/ambroseling/Projects/eztensors/src/kernels/matmul.cpp \
+  /Users/ambroseling/Projects/eztensors/src/kernels/outer.cpp \
   /Users/ambroseling/Projects/eztensors/src/tensor.cpp
 
 
 /Users/ambroseling/Projects/eztensors/src/tensor.cpp:
+
+/Users/ambroseling/Projects/eztensors/src/kernels/outer.cpp:
 
 /Users/ambroseling/Projects/eztensors/src/kernels/matmul.cpp:
 

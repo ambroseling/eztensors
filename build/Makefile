@@ -185,6 +185,32 @@ test_tensor/fast:
 .PHONY : test_tensor/fast
 
 #=============================================================================
+# Target rules for targets named test_attention
+
+# Build rule for target.
+test_attention: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_attention
+.PHONY : test_attention
+
+# fast build rule for target.
+test_attention/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/build
+.PHONY : test_attention/fast
+
+#=============================================================================
+# Target rules for targets named test_rmsnorm
+
+# Build rule for target.
+test_rmsnorm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_rmsnorm
+.PHONY : test_rmsnorm
+
+# fast build rule for target.
+test_rmsnorm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/build
+.PHONY : test_rmsnorm/fast
+
+#=============================================================================
 # Target rules for targets named eztensors
 
 # Build rule for target.
@@ -273,6 +299,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eztensors.dir/build.make CMakeFiles/eztensors.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tests/test_attention.o: tests/test_attention.cpp.o
+.PHONY : tests/test_attention.o
+
+# target to build an object file
+tests/test_attention.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/tests/test_attention.cpp.o
+.PHONY : tests/test_attention.cpp.o
+
+tests/test_attention.i: tests/test_attention.cpp.i
+.PHONY : tests/test_attention.i
+
+# target to preprocess a source file
+tests/test_attention.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/tests/test_attention.cpp.i
+.PHONY : tests/test_attention.cpp.i
+
+tests/test_attention.s: tests/test_attention.cpp.s
+.PHONY : tests/test_attention.s
+
+# target to generate assembly for a file
+tests/test_attention.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/tests/test_attention.cpp.s
+.PHONY : tests/test_attention.cpp.s
+
+tests/test_rmsnorm.o: tests/test_rmsnorm.cpp.o
+.PHONY : tests/test_rmsnorm.o
+
+# target to build an object file
+tests/test_rmsnorm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/tests/test_rmsnorm.cpp.o
+.PHONY : tests/test_rmsnorm.cpp.o
+
+tests/test_rmsnorm.i: tests/test_rmsnorm.cpp.i
+.PHONY : tests/test_rmsnorm.i
+
+# target to preprocess a source file
+tests/test_rmsnorm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/tests/test_rmsnorm.cpp.i
+.PHONY : tests/test_rmsnorm.cpp.i
+
+tests/test_rmsnorm.s: tests/test_rmsnorm.cpp.s
+.PHONY : tests/test_rmsnorm.s
+
+# target to generate assembly for a file
+tests/test_rmsnorm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/tests/test_rmsnorm.cpp.s
+.PHONY : tests/test_rmsnorm.cpp.s
+
 tests/test_tensor.o: tests/test_tensor.cpp.o
 .PHONY : tests/test_tensor.o
 
@@ -315,10 +389,18 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... test_attention"
+	@echo "... test_rmsnorm"
 	@echo "... test_tensor"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tests/test_attention.o"
+	@echo "... tests/test_attention.i"
+	@echo "... tests/test_attention.s"
+	@echo "... tests/test_rmsnorm.o"
+	@echo "... tests/test_rmsnorm.i"
+	@echo "... tests/test_rmsnorm.s"
 	@echo "... tests/test_tensor.o"
 	@echo "... tests/test_tensor.i"
 	@echo "... tests/test_tensor.s"

@@ -8,4 +8,12 @@ void scaled_dot_product_attention(
     float scale,
     int hidden_dim,
     int seq_len
-)   {}
+)   {
+
+
+
+
+
+
+    
+}

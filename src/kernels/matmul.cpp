@@ -1,12 +1,9 @@
 
 #include <arm_neon.h>
 #include <iostream>
-#include <vector>>
+#include <vector>
 #define MR 16
 #define NR 6
-static std::vector<float> block_A_buffer;
-static std::vector<float> block_B_buffer;
-
 
 void pack_buffer(  ) {
 
@@ -117,6 +114,8 @@ void kernel_16x6(float* A, float* B, float* C, int M, int N, int K, int n){
 void matmul_simd(std::shared_ptr<std::vector<float>> A, 
                  std::shared_ptr<std::vector<float>> B, 
                  std::shared_ptr<std::vector<float>> C, int M, int N, int K){
+    static std::vector<float> block_A_buffer;
+    static std::vector<float> block_B_buffer;                    
     for ( int i=0; i < M; i += MR) {
         const int m = std::min(MR, M-i);
         if ( m != MR ){
