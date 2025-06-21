@@ -7,14 +7,14 @@
 
 
 std::vector<float> kernel_outer_product_naive(
-    std::shared_ptr<std::vector<float>> A, 
+    std::shared_ptr<std::vector<float>> A, // 
     std::shared_ptr<std::vector<float>> B ){
     // basically 2 vectors, A is of size n, B is of size of m, output is of size n x m
     int c = B->size(); int r = A->size();
     std::vector<float> C(r*c, 0);
-    for(int i=0;i<B->size();i++){
-        for(int j=0;j<A->size();j++){
-            C[j*c+i] = (*A)[j] * (*B)[i];
+    for(int i=0;i<A->size();i++){
+        for(int j=0;j<B->size();j++){
+            C[i*c+j] = (*A)[i] * (*B)[j];
         }
     }
     return C;

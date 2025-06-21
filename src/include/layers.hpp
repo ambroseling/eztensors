@@ -34,7 +34,7 @@ namespace EzTensor{
             ~AttentionLayer();
             Tensor forward(Tensor& x, int start_pos);
             Tensor precompute_freq_cis(int dim, int end, float theta);
-            std::unordered_map<std::string,EzTensor::Tensor> apply_rotary_embedding(Tensor xq, Tensor xk, Tensor freqs);
+            std::unordered_map<std::string,EzTensor::Tensor> apply_rotary_embedding(Tensor& xq, Tensor& xk, Tensor& freqs);
     };
 
 

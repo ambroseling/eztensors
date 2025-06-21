@@ -124,7 +124,7 @@ void matmul_simd(std::shared_ptr<std::vector<float>> A,
         for ( int j=0; j < N; j += NR) {
             const int n = std::min(NR, N - j);
             if ( n != NR ){
-
+                
             }
             kernel_16x6(A->data()+K*i,B->data()+j,C->data()+i*N+j,M,N,K,n);    
     }  

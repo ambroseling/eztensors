@@ -1,28 +1,21 @@
 #include <iostream>
 #include "src/tensor.cpp"
-// #include "src/layers/attention.cpp"
-#include "src/layers/feedforward.cpp"
+#include "src/layers/attention.cpp"
 
 int main(){
-    EzTensor::ModelArgs args;
-    std::unordered_map<std::string,EzTensor::Tensor> input_weights;
-    std::vector<int> down_proj_weight_shape = {2048,8192};
-    EzTensor::Tensor down_proj_weight(down_proj_weight_shape);
-    down_proj_weight.fill_with(5.0);
-    std::vector<int> gate_proj_weight_shape = {8192,2048};
-    EzTensor::Tensor gate_proj_weight(gate_proj_weight_shape);
-    gate_proj_weight.fill_with(5.0);
-    std::vector<int> up_proj_weight_shape = {8192,2048};
-    EzTensor::Tensor up_proj_weight(up_proj_weight_shape);
-    up_proj_weight.fill_with(5.0);
-    input_weights["mlp_down_proj_weight"] = down_proj_weight;
-    input_weights["mlp_gate_proj_weight"] = gate_proj_weight;
-    input_weights["mlp_up_proj_weight"] = up_proj_weight;
-
-    std::vector<int> input_shape = {args.max_seq_len, args.dim};
-    EzTensor::Tensor input_tensor(input_shape);
-    input_tensor.fill_with(2);
-    EzTensor::FeedForwardLayer ff_layer = EzTensor::FeedForwardLayer(input_weights, args);
-    EzTensor::Tensor output = ff_layer.forward(input_tensor);
+    EzTensor::ModelArgs args = EzTensor::ModelArgs();
+    std::vector<int> shape = {1,2,3,4};
+    EzTensor::Tensor dummy(shape);
+    input_weights["dummy"] = dummy;
+    EzTensor::AttentionLayer attn_layer = EzTensor::AttentionLayer(input_weights, args);    
+    std::vector<int> xq_shape = {1,args.max_seq_len,args.n_heads * 64};
+    std::vector<int> xk_shape = {1,args.max_seq_len,args.n_heads * 64};
+    EzTensor::Tensor xq(xq_shape);
+    EzTensor::Tensor xk(xk_shape);
+    xq.fill_with(5.0);
+    xk.fill_with(5.0);
+    EzTensor::Tensor freqs = attn_layer.precompute_freq_cis(args.dim / args.n_heads, args.max_seq_len * 2, 10000.0);
+    std::unordered_map<std::string,EzTensor::Tensor> rotary_embeddings = attn_layer.apply_rotary_embedding(xq,xk,freqs);
+    
     return 0;
 }

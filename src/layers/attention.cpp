@@ -24,19 +24,19 @@ namespace EzTensor{
         Tensor thetas_new(shape, thetas);
         Tensor thetas_div_dim = thetas_new / dim;
         Tensor thetas_div_dim_raise = thetas_div_dim.rpowr(theta);
+        Tensor inverse_thetas_div_dim_raise = thetas_div_dim_raise.powr(-1.0);
         std::vector<int> t_shape = {end};
         Tensor t(t_shape, t_d);
-        Tensor freqs = t.outer(thetas_div_dim_raise, MM_MODE::SIMD);
+        Tensor freqs = t.outer(inverse_thetas_div_dim_raise, MM_MODE::SIMD);
         return freqs;
     }
 
-    std::unordered_map<std::string,EzTensor::Tensor> AttentionLayer::apply_rotary_embedding(Tensor xq, Tensor xk, Tensor freqs){
+    std::unordered_map<std::string,EzTensor::Tensor> AttentionLayer::apply_rotary_embedding(Tensor& xq, Tensor& xk, Tensor& freqs){
         std::vector<int> shape = {xq.shape[0], xq.shape[1], n_local_heads, head_dim};
         xq = xq.view(shape);
         xk = xk.view(shape);
-        Tensor freq_cis = precompute_freq_cis(head_dim, max_seq_len * 2, rope_theta);
-        Tensor freq_cis_cos_sin = freq_cis.complex_cos_sin();
-        Tensor freq_cis_sin_cos = freq_cis.complex_sin_cos();
+        Tensor freq_cis_cos_sin = freqs.complex_cos_sin();
+        Tensor freq_cis_sin_cos = freqs.complex_sin_cos();
         std::vector<int> broadcast_shape = {1, xq.shape[1], 1, head_dim };
         Tensor freq_cis_cos_sin_b = freq_cis_cos_sin.view(broadcast_shape);
         Tensor freq_cis_sin_cos_b = freq_cis_sin_cos.view(broadcast_shape);
