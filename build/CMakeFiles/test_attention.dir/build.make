@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ambroseling/Projects/eztensors
+CMAKE_SOURCE_DIR = /Users/aling/Projects/eztensors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ambroseling/Projects/eztensors/build
+CMAKE_BINARY_DIR = /Users/aling/Projects/eztensors/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_attention.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/test_attention.dir/codegen:
 .PHONY : CMakeFiles/test_attention.dir/codegen
 
 CMakeFiles/test_attention.dir/tests/test_attention.cpp.o: CMakeFiles/test_attention.dir/flags.make
-CMakeFiles/test_attention.dir/tests/test_attention.cpp.o: /Users/ambroseling/Projects/eztensors/tests/test_attention.cpp
+CMakeFiles/test_attention.dir/tests/test_attention.cpp.o: /Users/aling/Projects/eztensors/tests/test_attention.cpp
 CMakeFiles/test_attention.dir/tests/test_attention.cpp.o: CMakeFiles/test_attention.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_attention.dir/tests/test_attention.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_attention.dir/tests/test_attention.cpp.o -MF CMakeFiles/test_attention.dir/tests/test_attention.cpp.o.d -o CMakeFiles/test_attention.dir/tests/test_attention.cpp.o -c /Users/ambroseling/Projects/eztensors/tests/test_attention.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_attention.dir/tests/test_attention.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_attention.dir/tests/test_attention.cpp.o -MF CMakeFiles/test_attention.dir/tests/test_attention.cpp.o.d -o CMakeFiles/test_attention.dir/tests/test_attention.cpp.o -c /Users/aling/Projects/eztensors/tests/test_attention.cpp
 
 CMakeFiles/test_attention.dir/tests/test_attention.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_attention.dir/tests/test_attention.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ambroseling/Projects/eztensors/tests/test_attention.cpp > CMakeFiles/test_attention.dir/tests/test_attention.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aling/Projects/eztensors/tests/test_attention.cpp > CMakeFiles/test_attention.dir/tests/test_attention.cpp.i
 
 CMakeFiles/test_attention.dir/tests/test_attention.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_attention.dir/tests/test_attention.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ambroseling/Projects/eztensors/tests/test_attention.cpp -o CMakeFiles/test_attention.dir/tests/test_attention.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aling/Projects/eztensors/tests/test_attention.cpp -o CMakeFiles/test_attention.dir/tests/test_attention.cpp.s
 
 # Object files for target test_attention
 test_attention_OBJECTS = \
@@ -98,9 +98,9 @@ test_attention: CMakeFiles/test_attention.dir/build.make
 test_attention: lib/libgtest_main.a
 test_attention: lib/libgtest.a
 test_attention: CMakeFiles/test_attention.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_attention"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_attention"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_attention.dir/link.txt --verbose=$(VERBOSE)
-	/opt/homebrew/bin/cmake -D TEST_TARGET=test_attention -D TEST_EXECUTABLE=/Users/ambroseling/Projects/eztensors/build/test_attention -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/ambroseling/Projects/eztensors/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_attention_TESTS -D CTEST_FILE=/Users/ambroseling/Projects/eztensors/build/test_attention[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake
+	/opt/homebrew/bin/cmake -D TEST_TARGET=test_attention -D TEST_EXECUTABLE=/Users/aling/Projects/eztensors/build/test_attention -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/aling/Projects/eztensors/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_attention_TESTS -D CTEST_FILE=/Users/aling/Projects/eztensors/build/test_attention[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/test_attention.dir/build: test_attention
@@ -111,6 +111,6 @@ CMakeFiles/test_attention.dir/clean:
 .PHONY : CMakeFiles/test_attention.dir/clean
 
 CMakeFiles/test_attention.dir/depend:
-	cd /Users/ambroseling/Projects/eztensors/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ambroseling/Projects/eztensors /Users/ambroseling/Projects/eztensors /Users/ambroseling/Projects/eztensors/build /Users/ambroseling/Projects/eztensors/build /Users/ambroseling/Projects/eztensors/build/CMakeFiles/test_attention.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/aling/Projects/eztensors/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aling/Projects/eztensors /Users/aling/Projects/eztensors /Users/aling/Projects/eztensors/build /Users/aling/Projects/eztensors/build /Users/aling/Projects/eztensors/build/CMakeFiles/test_attention.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_attention.dir/depend
 

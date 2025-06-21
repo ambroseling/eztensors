@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/ambroseling/Projects/eztensors/build/_deps/googletest-subbuild/cmake_install.cmake"
+		"/Users/aling/Projects/eztensors/build/_deps/googletest-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

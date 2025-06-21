@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ambroseling/Projects/eztensors
+CMAKE_SOURCE_DIR = /Users/aling/Projects/eztensors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ambroseling/Projects/eztensors/build
+CMAKE_BINARY_DIR = /Users/aling/Projects/eztensors/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -164,14 +164,14 @@ CMakeFiles/test_tensor.dir/all: _deps/googletest-build/googletest/CMakeFiles/gte
 CMakeFiles/test_tensor.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=15,16 "Built target test_tensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=15,16 "Built target test_tensor"
 .PHONY : CMakeFiles/test_tensor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_tensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_tensor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_tensor.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ test_tensor: CMakeFiles/test_tensor.dir/rule
 # codegen rule for target.
 CMakeFiles/test_tensor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_tensor.dir/build.make CMakeFiles/test_tensor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=15,16 "Finished codegen for target test_tensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=15,16 "Finished codegen for target test_tensor"
 .PHONY : CMakeFiles/test_tensor.dir/codegen
 
 # clean rule for target.
@@ -197,14 +197,14 @@ CMakeFiles/test_attention.dir/all: _deps/googletest-build/googletest/CMakeFiles/
 CMakeFiles/test_attention.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=11,12 "Built target test_attention"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=11,12 "Built target test_attention"
 .PHONY : CMakeFiles/test_attention.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_attention.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_attention.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_attention.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ test_attention: CMakeFiles/test_attention.dir/rule
 # codegen rule for target.
 CMakeFiles/test_attention.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_attention.dir/build.make CMakeFiles/test_attention.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=11,12 "Finished codegen for target test_attention"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=11,12 "Finished codegen for target test_attention"
 .PHONY : CMakeFiles/test_attention.dir/codegen
 
 # clean rule for target.
@@ -230,14 +230,14 @@ CMakeFiles/test_rmsnorm.dir/all: _deps/googletest-build/googletest/CMakeFiles/gt
 CMakeFiles/test_rmsnorm.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=13,14 "Built target test_rmsnorm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=13,14 "Built target test_rmsnorm"
 .PHONY : CMakeFiles/test_rmsnorm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_rmsnorm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_rmsnorm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_rmsnorm.dir/rule
 
 # Convenience name for target.
@@ -247,7 +247,7 @@ test_rmsnorm: CMakeFiles/test_rmsnorm.dir/rule
 # codegen rule for target.
 CMakeFiles/test_rmsnorm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_rmsnorm.dir/build.make CMakeFiles/test_rmsnorm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=13,14 "Finished codegen for target test_rmsnorm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=13,14 "Finished codegen for target test_rmsnorm"
 .PHONY : CMakeFiles/test_rmsnorm.dir/codegen
 
 # clean rule for target.
@@ -262,14 +262,14 @@ CMakeFiles/test_rmsnorm.dir/clean:
 CMakeFiles/eztensors.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eztensors.dir/build.make CMakeFiles/eztensors.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eztensors.dir/build.make CMakeFiles/eztensors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=1,2 "Built target eztensors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=1,2 "Built target eztensors"
 .PHONY : CMakeFiles/eztensors.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/eztensors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/eztensors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : CMakeFiles/eztensors.dir/rule
 
 # Convenience name for target.
@@ -279,7 +279,7 @@ eztensors: CMakeFiles/eztensors.dir/rule
 # codegen rule for target.
 CMakeFiles/eztensors.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eztensors.dir/build.make CMakeFiles/eztensors.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=1,2 "Finished codegen for target eztensors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=1,2 "Finished codegen for target eztensors"
 .PHONY : CMakeFiles/eztensors.dir/codegen
 
 # clean rule for target.
@@ -294,14 +294,14 @@ CMakeFiles/eztensors.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=3,4 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -311,7 +311,7 @@ gmock: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=3,4 "Finished codegen for target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=3,4 "Finished codegen for target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/codegen
 
 # clean rule for target.
@@ -327,14 +327,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -344,7 +344,7 @@ gmock_main: _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=5,6 "Finished codegen for target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=5,6 "Finished codegen for target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/codegen
 
 # clean rule for target.
@@ -359,14 +359,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -376,7 +376,7 @@ gtest: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=7,8 "Finished codegen for target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=7,8 "Finished codegen for target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/codegen
 
 # clean rule for target.
@@ -391,14 +391,14 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ambroseling/Projects/eztensors/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aling/Projects/eztensors/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -408,7 +408,7 @@ gtest_main: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 # codegen rule for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ambroseling/Projects/eztensors/build/CMakeFiles --progress-num=9,10 "Finished codegen for target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/aling/Projects/eztensors/build/CMakeFiles --progress-num=9,10 "Finished codegen for target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/codegen
 
 # clean rule for target.

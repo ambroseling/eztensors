@@ -1,5 +1,5 @@
-if(EXISTS "/Users/ambroseling/Projects/eztensors/build/test_rmsnorm[1]_tests.cmake")
-  include("/Users/ambroseling/Projects/eztensors/build/test_rmsnorm[1]_tests.cmake")
+if(EXISTS "/Users/aling/Projects/eztensors/build/test_rmsnorm[1]_tests.cmake")
+  include("/Users/aling/Projects/eztensors/build/test_rmsnorm[1]_tests.cmake")
 else()
   add_test(test_rmsnorm_NOT_BUILT test_rmsnorm_NOT_BUILT)
 endif()

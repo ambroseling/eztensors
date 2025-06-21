@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googlemock/include -I/Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googlemock -isystem /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest/include -isystem /Users/ambroseling/Projects/eztensors/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/aling/Projects/eztensors/build/_deps/googletest-src/googlemock/include -I/Users/aling/Projects/eztensors/build/_deps/googletest-src/googlemock -isystem /Users/aling/Projects/eztensors/build/_deps/googletest-src/googletest/include -isystem /Users/aling/Projects/eztensors/build/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 = -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1  
 
